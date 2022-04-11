@@ -20,6 +20,7 @@ body {
     left: 0;
     font-size: 18px;
 }
+/*-------------------------------------------------------------------------------------*/
 
 /*INDEX*/
 .cabecalho {
@@ -67,6 +68,35 @@ body {
     cursor: pointer;
     color: cornflowerblue;
 }
+
+.corpo {
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    text-align: justify;
+}
+
+.texto {
+    margin-left: 4px;
+    margin-right: 100px;
+    text-align: justify;
+
+}
+
+.corpoLista {
+    margin-left: 40px;
+    margin-right: 100px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    list-style: disc;
+}
+
+.corpoLista li {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+/*-------------------------------------------------------------------------------------*/
 
 /*PÁGINA AVALIAÇÃO*/
 .cabecalhoAV {
