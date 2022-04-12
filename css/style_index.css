@@ -13,8 +13,20 @@
     text-decoration: none;
 }
 
-h1,h2,h3,h4 {
+.container h1,
+.container h2,
+.container h3,
+.container h4 {
     line-height: 2em;
+}
+.container p{
+    padding: 0 10px;
+}
+.container dl {
+    padding: 15px;
+}
+.container dd {
+    margin: 5px 20px;
 }
 .logo h1,
 .logo h2{
