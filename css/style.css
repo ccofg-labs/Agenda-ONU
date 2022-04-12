@@ -1,6 +1,5 @@
-/*ÚTEIS*/
+
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -19,10 +18,9 @@ body {
     align-items: center;
     background-color: #FFFF00;
 }
-.logo {
-    
+.logo a{
+    text-decoration: none;
 }
-
 .navbar-cabecalho ul {
     display: flex;
     flex-flow: row nowrap;
