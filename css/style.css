@@ -16,7 +16,7 @@ body {
     height: 120px;
     justify-content: space-around;
     align-items: center;
-    background-color: #FFFF00;
+    background-color: #FFD700;
 }
 .logo a{
     text-decoration: none;
@@ -39,8 +39,11 @@ body {
     color: rgb(1, 58, 1);
 }
 /*Principal do site */
+main {
+    background-color:#FFFF00;
+}
 .container {
-    background-color: #FFFF40;
+    background-color: white;
     box-sizing: border-box;
     margin: 0 auto;
     width: 80%;
