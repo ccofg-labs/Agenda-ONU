@@ -1,12 +1,22 @@
-.conteudo{
 
-}
 .texto-conteudo {
+    box-sizing: border-box;
+    text-align: justify;
 
 }
-.lista-de-links {
-
+.lista-de-links li{
+    list-style: none;
+    margin: 5px 0;
 }
-.links {
+.lista-de-links a{
+    color: green;
+    text-decoration: none;
+}
 
+h1,h2,h3,h4 {
+    line-height: 2em;
+}
+.logo h1,
+.logo h2{
+    line-height: 1em;
 }
