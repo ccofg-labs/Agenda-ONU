@@ -16,7 +16,7 @@ body {
     height: 120px;
     justify-content: space-around;
     align-items: center;
-    background-color: #FFD700;
+    background-color: #ffce01;
 }
 .logo a{
     text-decoration: none;
@@ -40,7 +40,7 @@ body {
 }
 /*Principal do site */
 main {
-    background-color:#FFFF00;
+    background-color:#0476b5;
 }
 .container {
     background-color: white;
@@ -55,5 +55,5 @@ main {
     text-align: center;
     font-weight: bold;
     line-height: 80px;
-    background-color: #FFFF00;
+    background-color: #ffce01;
 }
