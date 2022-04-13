@@ -39,10 +39,14 @@
 .logo h2{
     line-height: 1em;
 }
+/*videos*/ 
+video {
+    width: 720px;
+    margin: 0 auto;
+}
 /*podcast*/
 .podcast li {
     list-style: none;
-    margin: 10px 0;
     padding-left: 20px;
 }
 .podcast audio {
