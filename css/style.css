@@ -19,6 +19,7 @@ body {
     background-color: #ffce01;
 }
 .logo a{
+    text-align: justify;
     text-decoration: none;
 }
 .navbar-cabecalho ul {
