@@ -3,7 +3,14 @@
     box-sizing: border-box;
     text-align: justify;
 }
-.container {
+.conteudo figure{
+    margin: 50px auto;
+    max-width: 500px;
+    min-width: 200px;
+}
+.conteudo img {
+    max-width: 100%;
+    max-height: 100%;
 }
 .lista-de-links li{
     list-style: none;
@@ -12,12 +19,6 @@
 .lista-de-links a{
     color: green;
     text-decoration: none;
-}
-.container img {
-    display: block;
-    margin: 20px auto;
-    width: 700px;
-    height: auto;
 }
 .container h1,
 .container h2,
