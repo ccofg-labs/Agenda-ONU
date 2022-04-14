@@ -52,7 +52,7 @@
 .video video {
     margin-top: 10px;
     margin-bottom: 10px;
-    width: 720px;
+    max-width: 600px;
 }
 /*podcast*/
 .podcast li {
