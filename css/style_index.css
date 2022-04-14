@@ -43,9 +43,11 @@
 /*videos*/ 
 .video {
     text-align: center;
+    border-bottom: 1px solid #ccc;
 }
 .video h3 {
-    text-align: left;
+    text-align: center;
+    margin:20px 0;
 }
 .video video {
     margin-top: 10px;
