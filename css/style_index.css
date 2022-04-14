@@ -44,8 +44,11 @@
 .video {
     text-align: center;
 }
+.video h3 {
+    text-align: left;
+}
 .video video {
-    margin-top: 50px;
+    margin-top: 10px;
     margin-bottom: 10px;
     width: 720px;
 }
@@ -56,4 +59,9 @@
 }
 .podcast audio {
     width: 100%;
+}
+/*conteudo extra*/
+.conteudo-extra {
+    margin-top: 15px;
+    background-color: #ffffe0;
 }
