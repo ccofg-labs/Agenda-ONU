@@ -20,7 +20,9 @@
     color: green;
     text-decoration: none;
 }
-.container h1,
+.container h1 {
+    letter-spacing: 5px;
+}
 .container h2,
 .container h3,
 .container h4 {
@@ -35,14 +37,17 @@
 .container dd {
     margin: 5px 20px;
 }
-.logo h1,
 .logo h2{
     line-height: 1em;
 }
 /*videos*/ 
-video {
+.video {
+    text-align: center;
+}
+.video video {
+    margin-top: 50px;
+    margin-bottom: 10px;
     width: 720px;
-    margin: 0 auto;
 }
 /*podcast*/
 .podcast li {
