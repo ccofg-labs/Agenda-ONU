@@ -16,7 +16,9 @@ body {
     height: 120px;
     justify-content: space-around;
     align-items: center;
+    background-image: url(../img/banner_do_topo.jpg);
     background-color: #ffce01;
+    background-size: contain;
 }
 .logo a{
     text-align: justify;
