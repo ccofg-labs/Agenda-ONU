@@ -62,6 +62,7 @@
 .podcast audio {
     width: 100%;
 }
+audio::-webkit-media-controls-panel {background-color: rgba(0, 128, 0, 0.377);}
 /*conteudo extra*/
 .conteudo-extra {
     margin-top: 15px;
