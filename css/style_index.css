@@ -3,7 +3,8 @@
     box-sizing: border-box;
     text-align: justify;
 }
-.conteudo figure{
+.conteudo figure,
+.videos figure{
     margin: 50px auto;
     max-width: 720px;
     min-width: 200px;
@@ -17,8 +18,11 @@
     margin: 5px 0;
 }
 .lista-de-links a{
-    color: green;
+    color: rgba(0, 128, 0, 0.733);
     text-decoration: none;
+}
+.lista-de-links a:hover {
+    color: green;
 }
 .container h1 {
     letter-spacing: 5px;
@@ -62,7 +66,9 @@
 .podcast audio {
     width: 100%;
 }
-audio::-webkit-media-controls-panel {background-color: rgba(0, 128, 0, 0.377);}
+audio::-webkit-media-controls-panel {
+    background-color: rgba(0, 128, 0, 0.377);
+}
 /*conteudo extra*/
 .conteudo-extra {
     margin-top: 15px;
