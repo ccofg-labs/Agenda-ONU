@@ -50,7 +50,17 @@
     <!--Principal-->
     <main>
         <div class="container">
-            
+            <form action="#" method="get" class="formulario">
+                <fieldset>
+                    <legend>Contatenos</legend>
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome" required><br>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" required><br>
+                    <textarea textarea name="comentario" id="comentario"cols="30" rows="10"></textarea>
+                    <input type="submit" class="enviar" value="Enviar" onclick="alert('Obrigado pelo comentário')">
+                </fieldset>
+            </form>
         </div>
     </main>
     <!--rodape-->
