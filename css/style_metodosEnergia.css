@@ -1,0 +1,49 @@
+/*Textos nas página Métodos de Energia Limpa e Métodos de Energia Nocivos*/
+.texto {
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+/*Lista presente nas páginas Métodos de Energia Limpa e Métodos de Energia Nocivos*/
+.listaME {
+    margin-left: 40px;
+    margin-right: 100px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    list-style: none;
+}
+
+/*Itens das listas presentes nas páginas Métodos de Energia Limpa e Métodos de Energia Nocivos*/
+.listaME li {
+    margin-top: 20px;
+}
+
+/*Imagens das páginas Métodos de Energia Limpa e Métodos de Energia Nocivos*/
+.imgME {
+    text-align: center;
+    width: 10%;
+}
+
+/*Posicionamento do botão presente nas páginas Métodos de Energia Limpa e Métodos de Energia Nocivos*/
+.botoesME {
+    text-align: left;
+    margin-left: 15px;
+}
+
+/*Estilo do botão presente nas páginas Métodos de Energia Limpa e Métodos de Energia Nocivos*/
+.botaoME {
+    background-color: green;
+    color: white;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 20px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+/*Animação quando o mouse é passado sobre o botão*/
+.botaoME:hover {
+    cursor: pointer;
+    background-color: greenyellow;
+}
+
