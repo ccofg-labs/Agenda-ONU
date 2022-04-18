@@ -7,5 +7,8 @@
   <img alt="onu" src="assets/un.svg" width="150px">
 </p>
 
-# Agenda-ONU
+# Agenda ONU
+<p align="left">
+  <img alt="logo" src="assets/logo.png">
+</p>
 Projeto sobre energia limpa e sustentável, para a disciplina de Desenvolvimento de Software para Web
