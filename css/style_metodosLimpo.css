@@ -1,0 +1,48 @@
+/*Textos na página Métodos de Energia Limpa*/
+.texto {
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+/*Lista presente na página Métodos de Energia Limpa*/
+.listaEL {
+    margin-left: 40px;
+    margin-right: 100px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    list-style: none;
+}
+
+/*Itens da lista presente na página Métodos de Energia Limpa*/
+.listaEL li {
+    margin-top: 20px;
+}
+
+/*Imagens da página Métodos de Energia Limpa*/
+.imgEL {
+    text-align: center;
+    width: 10%;
+}
+
+/*Posicionamento do botão presente na página Métodos de Energia Limpa*/
+.botoesEL {
+    text-align: left;
+    margin-left: 15px;
+}
+
+/*Estilo do botão presente na página Métodos de Energia Limpa*/
+.botaoEL {
+    background-color: green;
+    color: white;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 20px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+/*Animação quando o mouse é passado sobre o botão*/
+.botaoEL:hover {
+    cursor: pointer;
+    background-color: greenyellow;
+}
