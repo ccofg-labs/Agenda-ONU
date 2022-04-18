@@ -1,10 +1,43 @@
+/* 480px */
+@media screen and (max-width: 480px) {
+      /*videos*/ 
 
+.video video {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 200px;
+}
+}
+/* 768 */
+@media screen and (max-width: 768px) {
+  /*videos*/ 
+.video {
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+.video h3 {
+    text-align: center;
+    margin:20px 0;
+}
+.video video {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 400px;
+}
+}
+/* 1024 */
+@media screen and (max-width: 1024px) {
+  
+}
+/* 1200px*/
+@media screen and (max-width: 1200px) {
+ 
+}
 .texto-conteudo {
     box-sizing: border-box;
     text-align: justify;
 }
-.conteudo figure,
-.videos figure{
+.conteudo figure{
     margin: 50px auto;
     max-width: 720px;
     min-width: 200px;

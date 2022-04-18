@@ -9,7 +9,23 @@ body {
 }
 
 /*Cabecalho do Site */
-.header-cabecalho {
+
+@media screen and (max-width: 480px) {
+    
+  }
+  /* 768 */
+  @media screen and (max-width: 768px) {
+    
+  }
+  /* 1024 */
+  @media screen and (max-width: 1024px) {
+    
+  }
+  /* 1200px*/
+  @media screen and (max-width: 1200px) {
+   
+  }
+  .header-cabecalho {
     text-shadow: 1px 1px 1px black;
     display: flex;
     flex-flow: row nowrap;
