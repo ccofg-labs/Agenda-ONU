@@ -49,18 +49,93 @@
     </header>
     <!--Principal-->
     <main>
+        <center><h3></h3></center>
         <div class="container">
-            <form action="#" method="get" class="formulario">
+            <form action="#" method="get" class="formulario"><!--Formulário de avaliação-->
                 <fieldset>
-                    <legend>Contatenos</legend>
+                        Que nota você dá para a interface do site?<br>
+                        <label>1</label>
+                        <input type="radio" value="1">
+                        <label>2</label>
+                        <input type="radio" value="2">
+                        <label>3</label>
+                        <input type="radio" value="3">
+                        <label>4</label>
+                        <input type="radio" value="4">
+                        <label>5</label>
+                        <input type="radio" value="5">
+                        <label>6</label>
+                        <input type="radio" value="6">
+                        <label>7</label>
+                        <input type="radio" value="7">
+                        <label>8</label>
+                        <input type="radio" value="8">
+                        <label>9</label>
+                        <input type="radio" value="9">
+                        <label>10</label>
+                        <input type="radio" value="10">
+                        <br><br>
+                        Que nota você dá para o design do site?<br>
+                        <label>1</label>
+                        <input type="radio" value="1">
+                        <label>2</label>
+                        <input type="radio" value="2">
+                        <label>3</label>
+                        <input type="radio" value="3">
+                        <label>4</label>
+                        <input type="radio" value="4">
+                        <label>5</label>
+                        <input type="radio" value="5">
+                        <label>6</label>
+                        <input type="radio" value="6">
+                        <label>7</label>
+                        <input type="radio" value="7">
+                        <label>8</label>
+                        <input type="radio" value="8">
+                        <label>9</label>
+                        <input type="radio" value="9">
+                        <label>10</label>
+                        <input type="radio" value="10">
+                        <br><br>
+                        Que nota você dá para o site em geral?<br>
+                        <label>1</label>
+                        <input type="radio" value="1">
+                        <label>2</label>
+                        <input type="radio" value="2">
+                        <label>3</label>
+                        <input type="radio" value="3">
+                        <label>4</label>
+                        <input type="radio" value="4">
+                        <label>5</label>
+                        <input type="radio" value="5">
+                        <label>6</label>
+                        <input type="radio" value="6">
+                        <label>7</label>
+                        <input type="radio" value="7">
+                        <label>8</label>
+                        <input type="radio" value="8">
+                        <label>9</label>
+                        <input type="radio" value="9">
+                        <label>10</label>
+                        <input type="radio" value="10">
+                        <br><br>
+                        Tem alguma sugestão ou crítica? Deixe a sua mensagem!<br><br>
+                        <!--Área para texto do usuário-->
+                        <textarea name="mensagem" cols="60" rows="10"></textarea><br>
+                        <input type="submit" class="enviar" value="Enviar" onclick="alert('Obrigado por dar sua opinião!')">
+                </fieldset>
+            </form>
+            <form action="#" method="get" class="formulario"><!--Formulário para contato-->
+                <fieldset>
+                    <legend>Contate-nos</legend>
                     <label for="nome">Nome:</label>
-                    <input type="text" name="nome" id="nome" required><br>
+                    <input type="text" name="nome" id="nome" required><br><br>
 
                     <label for="email">Email:</label>
-                    <input type="email" name="email" id="email" required><br>
-                    <label for="mensagem">Digite sua mensagem</label>
-                    <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
-                    <input type="submit" class="enviar" value="Enviar" onclick="alert('Obrigado pelo comentário')">
+                    <input type="email" name="email" id="email" required><br><br>
+                    <label for="mensagem">Digite sua mensagem:</label><br>
+                    <textarea name="mensagem" id="mensagem" cols="90" rows="10"></textarea>
+                    <input type="submit" class="enviar" value="Enviar" onclick="alert('Obrigado pelo comentário!')">
                 </fieldset>
             </form>
             <address>
