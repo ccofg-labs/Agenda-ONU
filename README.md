@@ -4,7 +4,7 @@
 ![License](https://img.shields.io/badge/UNIFG-blue.svg)
 
 <p align="center">
-  <img alt="Letmeask" src="assets/logo.png" width="150px">
+  <img alt="onu" src="assets/logo.png" width="150px">
 </p>
 
 # Agenda-ONU
