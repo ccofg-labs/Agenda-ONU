@@ -1,14 +1,19 @@
 .formulario {
-    margin: 100px auto;
-    width: 400px;
+    margin: 60px auto;
+    width: 700px;
 }
 
 .formulario input.enviar {
     display: flex;
     justify-content: center;
     width: 100px;
-    height: 20px;
+    height: 40px;
+    border-radius: 20%;
     background-color: green;
     color: white;
-    margin: 20px auto;
+    margin: 10px auto;
+}
+
+.formulario input.enviar:hover {
+    background-color: greenyellow;
 }
