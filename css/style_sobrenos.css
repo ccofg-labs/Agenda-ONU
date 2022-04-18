@@ -1,0 +1,31 @@
+/*Textos na página Sobre o Site*/
+.texto {
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+/*Textos com link na página Sobre o Site*/
+.links {
+    color: black;
+    text-decoration: none;
+}
+
+/*Animação dos textos com link na página Sobre o Site*/
+.links:hover {
+    cursor: pointer;
+    color: green;
+}
+
+/*Lista presente na página Sobre o Site*/
+.listaSN {
+    margin-left: 40px;
+    margin-right: 100px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    list-style: disc;
+}
+
+/*Itens da lista presente na página Sobre o Site*/
+.listaSN li {
+    margin-top: 8px;
+}
