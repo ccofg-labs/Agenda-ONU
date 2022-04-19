@@ -1,3 +1,7 @@
+main {
+    height: 550px;
+}
+
 /*Corpo do formulário presente na página Calculadora de energia*/
 .formulario {
     background-color: green;
