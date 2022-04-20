@@ -1,31 +1,11 @@
-
 * {
     margin: 0;
     padding: 0;
 }
-
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
-
-/*Cabecalho do Site */
-
-@media screen and (max-width: 480px) {
-    
-  }
-  /* 768 */
-  @media screen and (max-width: 768px) {
-    
-  }
-  /* 1024 */
-  @media screen and (max-width: 1024px) {
-    
-  }
-  /* 1200px*/
-  @media screen and (max-width: 1200px) {
-   
-  }
-  .header-cabecalho {
+  .header__topo {
     text-shadow: 1px 1px 1px black;
     display: flex;
     flex-flow: row nowrap;
@@ -33,22 +13,22 @@ body {
     height: 150px;
     justify-content: space-around;
     align-items: center;
-    background-image: url(../img/banner_do_topo.jpg);
+    background-image: url(../img/banner_do_site.png);
     background-color: #ffce01;
     background-size: contain;
     background-repeat: repeat-x;
 }
-.logo a{
+.header__topo__logo a{
     font-size: 1.2em;
     color: rgba(0, 100, 0, 0.295);
     text-align: justify;
     text-decoration: none;
 }
-.navbar-cabecalho ul {
+.header__topo__navbar ul{
     display: flex;
     flex-flow: row nowrap;
 }
-.navbar-cabecalho ul li {
+.header__topo__navbar ul li {
     background-color: rgba(0, 100, 0, 0.295);
     margin: 0 5px;
     padding: 2px 4px;
@@ -56,19 +36,19 @@ body {
     list-style: none;
     text-transform: uppercase;
 }
-.navbar-cabecalho a {
+.header__topo__navbar a {
     text-shadow: 1px 1px 1px black;
     text-decoration: none;
     color: green;
 }
-.navbar-cabecalho a:hover{
+.header__topo__navbar a:hover{
     color: rgb(1, 58, 1);
 }
 /*Principal do site */
 main {
     background-color:#0477b58e;
 }
-.container {
+.main__container{
     background-color: white;
     box-sizing: border-box;
     margin: 0 auto;
