@@ -54,7 +54,7 @@
             <!--inicio do container principal-->
             <div class="main__container">
                 <!--inicio primeiro conteudo-->
-                <article>
+                <article class="secao__1">
                     <header>
                         <h1>Como as Nações Unidas apoiam os Objetivos de
                             Desenvolvimento Sustentável?</h1>
@@ -62,8 +62,9 @@
                     <section>
                         <div class="main__conteudo">
 
-                            <figure>
-                                <img src="img/energia_limpa_index.gif"
+                            <figure class="container__img">
+                                <img srcset="img/energia_limpa_index.gif 640w"
+                                    sizes="50vw"
                                     alt="pessoas passeando num ambiente
                                     aluminado com energia limpa">
                             </figure>
@@ -80,16 +81,19 @@
                 </article>
                 <!--fim primeiro conteudo-->
                 <!--inicio segundo conteudo-->
-                <article>
+                <article class="secao__2">
                     <header>
                         <h2>Objetivos da ONU</h2>
                     </header>
                     <section>
                         <div class="main__conteudo">
-                            <figure>
-                                <img src="img/ods_onu.png" alt="ODS da Onu">
+                            <figure class="container__img">
+                                <img srcset="img/ods_onu.png 1016w" 
+                                    alt="ODS da Onu" 
+                                    sizes="50vw"
+                                    type="img/png">
                             </figure>
-                            <p class="main__conteudo__texto">
+                            <p>
                                 Os objetivos de Desenvolvimento Sustentável são
                                 um apelo global à ação para acabar com a
                                 pobreza e proteger o meio ambiente e o clima e
@@ -106,7 +110,7 @@
                 </article>
                 <!--fim segundo conteudo-->
                 <!--inicio do terceiro conteudo-->
-                <article>
+                <article class="secao__3">
                     <header>
                         <hgroup>
                             <h3>Quanto a Energia Sustentável?</h3>
@@ -159,68 +163,39 @@
                                 apoio.
                             </dd>
                         </dl>
-                        <hr>
                     </section>
                 </article><!--fim do terceiro conteudo-->
                 
                 <!--inicio do quarto conteudo-->
-                <article>
+                <article class="secao__videos">
                     <!--inicio conteudo de videos-->
                     <header>
                         <h2>Veja todos os video sobre energia limpa</h2>
                     </header>
                     <section>
                         <div class="conteudo__videos">
-                            <section>
-                                <figure>
-                                    <h3>Como Energia Solar é Convertida em
-                                        Eletricidade</h3>
-                                    <video src="video/Como Energia Solar é
-                                        Convertida em Eletricidade_ _ Ep.
-                                        29.mp4" controls></video>
-                                    <figcaption>
-                                        <h4>Minuto da Terra</h4>
-                                        <p>Lorem ipsum dolor sit amet
-                                            consectetur.</p>
-                                        <p>14 de Abril de 2022</p>
-                                    </figcaption>
-                                </figure>
-                            </section>
-                            <section>
-                                <div class="conteudo__videos__video">
-                                    <figure>
-                                        <h3>Energia soloar - como funciona ?</h3>
-                                        <video src="video/ENERGIA SOLAR - Como
-                                            Funciona_.mp4" controls></video>
-                                        <figcaption>
-                                            <h4>Blue Sol</h4>
-                                            <p>Lorem ipsum dolor sit amet
-                                                consectetur adipisicing.</p>
-                                            <p>14 de Abril de 2022</p>
-                                        </figcaption>
-                                    </figure>
-                                </div>
-                            </section>
-                            <section>
-                                <div class="conteudo__videos__video">
-                                    <figure>
-                                        <h3>Energia limpas é o futuro que
-                                            queremos</h3>
-                                        <div class="video-responsivo">
-                                            <video src="video/Energias limpas e
-                                                o futuro que queremos.mp4"
-                                                controls></video>
-                                        </div>
-                                        <figcaption>
-                                            <h4>Desenrolou</h4>
-                                            <p>Lorem ipsum dolor sit amet
-                                                consectetur adipisicing elit.</p>
-                                            <p>14 de Abril de 2022</p>
-                                        </figcaption>
-                                    </figure>
-                                </section>
+                            <div class="conteudo__videos__video">
+                                <video src="video/Como Energia Solar é Convertida em Eletricidade_ _ Ep. 29.mp4"></video>
                             </div>
-                        </section>
+                            <div class="conteudo__videos__descricao">
+                                <h2>Como energia solar é convertida em eletrecidade?</h2>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus, explicabo.</p>
+                            </div>
+                            <div class="conteudo__videos__video">
+                                <video src="video/ENERGIA SOLAR - Como Funciona_.mp4"></video>
+                            </div>
+                            <div class="conteudo__videos__descricao">
+                                <h2>Energia solar - como funciona</h2>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus, explicabo.</p>
+                            </div>
+                            <div class="conteudo__videos__video">
+                                <video src="video/Energias limpas e o futuro que queremos.mp4"></video>
+                            </div>
+                            <div class="conteudo__videos__descricao">
+                                <h2>Energia limpas e o futuro que queremos</h2>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus, explicabo.</p>
+                            </div>
+                        </div>
                     </article>
                     <!--fim conteudo de videos-->
                     <article>
@@ -229,30 +204,23 @@
                                 <h2>Veja também</h2>
                             </header>
                             <section>
-                                <!--inicio conteudo podcast-->
-                                <div class="conteudo__poscast__audios">
                                     <ul>
                                         <li>
                                             <h4>Objetivos de Desenvolvimento
                                                 Sustentável IBGE Explica:</h4><br>
-                                            <audio src="audio/Objetivos de
-                                                Desenvolvimento Sustentável IBGE
-                                                Explica.mp3" controls></audio>
+                                            <audio src="audio/Objetivos de Desenvolvimento Sustentável  IBGE Explica.mp3" controls></audio>
                                         </li>
                                         <li>
                                             <h4> ODS 7 Energias renováveis IBGE
                                                 Explica:</h4><br>
-                                            <audio src="audio/ODS 7 Energias
-                                                renováveis IBGE Explica.mp3"
+                                            <audio src="audio/ODS 7 Energias renováveis  IBGE Explica.mp3"
                                                 controls></audio>
                                         </li>
                                     </ul>
-                                </div>
-                                <!--fim conteudo podcast-->
                             </section>
                         </div>
                     </article>
-                    <article>
+                    <article class="conteudo__extra">
                         <header>
                             <hgroup>
                                 <h3>Mais informações:</h3>
@@ -260,9 +228,7 @@
                             </hgroup>
                         </header>
                         <section>
-                            <!--inicio conteudo extra-->
-                            <div class="conteudo__extra">
-                                <ul class="conteudo__extra__links">
+                                <ul>
                                     <li>
                                         <a href="metodosLimpo.html">
                                             Quais são os métodos de energia
@@ -289,8 +255,6 @@
                                         </a>
                                     </li>
                                 </ul>
-                            </div>
-                            <!--fim conteudo extra-->
                         </section>
                     </article>
                 </div>
