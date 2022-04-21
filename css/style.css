@@ -1,19 +1,32 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.12,
+* Autoprefixer: v10.4.4
+* Browsers: last 4 version
+*/
 * {
     margin: 0;
     padding: 0;
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
-    min-width: 240px;
 }
   .header__topo {
     text-shadow: 1px 1px 1px black;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-flow: row nowrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
     width: 100%;
     height: 150px;
-    justify-content: space-around;
-    align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     background-image: url(../img/banner_do_site.png);
     background-color: #ffce01;
     background-size: contain;
@@ -26,8 +39,13 @@ body {
     text-decoration: none;
 }
 .header__topo__navbar ul{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-flow: row nowrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
 }
 .header__topo__navbar ul li {
     background-color: rgba(0, 100, 0, 0.295);
@@ -51,9 +69,11 @@ main {
 }
 .main__container{
     background-color: white;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     margin: 0 auto;
     width: 70%;
+    box-sizing: border-box;
     min-height: 1000px;
     padding: 30px 30px;
 }
@@ -64,4 +84,65 @@ main {
     font-weight: bold;
     line-height: 80px;
     background-color: #ffce01;
+}
+@media screen and (max-width:320px){
+    .header__topo {
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+    .header__topo__logo {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    .header__topo__navbar ul{
+        text-align: center;
+        display: inline;
+        padding: 0;
+        margin: 0;
+    }
+    .header__topo__navbar li{
+        text-align: center;
+        display: inline-block;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .header__topo__navbar li:hover {
+        background-color: rgba(0, 128, 0, 0.616);
+    }
+    main {
+        margin: 0;
+        padding: 0;
+    }
+    .main__container {
+        width: 80%;
+        padding: 0;
+        margin: 0 auto;
+    }
+    .secao__1 h1 {
+        font-size: 1.4em;
+        text-align: center;
+    }
+    .main__conteudo,
+    .secao__2{
+        box-sizing: border-box;
+        padding: 0 5px;
+        text-align: justify;
+        margin: 0;
+    }
+    .secao__2 h2 {
+        text-align: center;
+        font-size: 1.2em;
+    }
+    .secao__3 h3,
+    .secao__3 h4{
+        box-sizing: border-box;
+        padding: 0 5px;
+        margin: 0;
+    }
 }
