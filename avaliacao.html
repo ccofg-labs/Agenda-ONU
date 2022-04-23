@@ -21,13 +21,10 @@
         <div class="header__topo">
             <div class="header__topo__logo">
                 <a href="index.html">
-                    <hgroup>
-                        <h2><i class="fas fa-power-off"></i> Energia acessível<br>e limpa</h2>
-                    </hgroup>
+                    <span class="logo"><i class="fas fa-power-off"></i> Energia limpa<br>e acessível</span>
                 </a>
             </div>
-            <nav>
-                <div class="header__topo__navbar">
+            <nav class="header__topo__navbar">
                     <ul>
                         <li>
                             <a href="index.html">início</a>
@@ -44,115 +41,108 @@
                                 opinião</a>
                         </li>
                     </ul>
-                </div>
             </nav>
         </div>
     </header>
     <!--Principal-->
     <main>
-        <div class="main__container">
-            <form action="#" method="get" class="formulario"><!--Formulário de avaliação-->
-                <fieldset>
-                        Que nota você dá para a interface do site?<br>
-                        <label>1</label>
-                        <input type="radio" value="1">
-                        <label>2</label>
-                        <input type="radio" value="2">
-                        <label>3</label>
-                        <input type="radio" value="3">
-                        <label>4</label>
-                        <input type="radio" value="4">
-                        <label>5</label>
-                        <input type="radio" value="5">
-                        <label>6</label>
-                        <input type="radio" value="6">
-                        <label>7</label>
-                        <input type="radio" value="7">
-                        <label>8</label>
-                        <input type="radio" value="8">
-                        <label>9</label>
-                        <input type="radio" value="9">
-                        <label>10</label>
-                        <input type="radio" value="10">
-                        <br><br>
-                        Que nota você dá para o design do site?<br>
-                        <label>1</label>
-                        <input type="radio" value="1">
-                        <label>2</label>
-                        <input type="radio" value="2">
-                        <label>3</label>
-                        <input type="radio" value="3">
-                        <label>4</label>
-                        <input type="radio" value="4">
-                        <label>5</label>
-                        <input type="radio" value="5">
-                        <label>6</label>
-                        <input type="radio" value="6">
-                        <label>7</label>
-                        <input type="radio" value="7">
-                        <label>8</label>
-                        <input type="radio" value="8">
-                        <label>9</label>
-                        <input type="radio" value="9">
-                        <label>10</label>
-                        <input type="radio" value="10">
-                        <br><br>
-                        Que nota você dá para o site em geral?<br>
-                        <label>1</label>
-                        <input type="radio" value="1">
-                        <label>2</label>
-                        <input type="radio" value="2">
-                        <label>3</label>
-                        <input type="radio" value="3">
-                        <label>4</label>
-                        <input type="radio" value="4">
-                        <label>5</label>
-                        <input type="radio" value="5">
-                        <label>6</label>
-                        <input type="radio" value="6">
-                        <label>7</label>
-                        <input type="radio" value="7">
-                        <label>8</label>
-                        <input type="radio" value="8">
-                        <label>9</label>
-                        <input type="radio" value="9">
-                        <label>10</label>
-                        <input type="radio" value="10">
-                        <br><br>
-                        Tem alguma sugestão ou crítica? Deixe a sua mensagem!<br><br>
-                        <!--Área para texto do usuário-->
-                        <textarea name="mensagem" cols="60" rows="10"></textarea><br>
-                        <input type="submit" class="enviar" value="Enviar" onclick="alert('Obrigado por dar sua opinião!')">
-                </fieldset>
-            </form>
-            <form action="#" method="get" class="formulario"><!--Formulário para contato-->
-                <fieldset>
-                    <legend>Contate-nos</legend>
-                    <label for="nome">Nome:</label>
-                    <input type="text" name="nome" id="nome" required><br><br>
+        <form action="#" method="get" class="formulario"><!--Formulário de avaliação-->
+            <fieldset>
+                    Que nota você dá para a interface do site?<br>
+                    <label>1</label>
+                    <input type="radio" value="1">
+                    <label>2</label>
+                    <input type="radio" value="2">
+                    <label>3</label>
+                    <input type="radio" value="3">
+                    <label>4</label>
+                    <input type="radio" value="4">
+                    <label>5</label>
+                    <input type="radio" value="5">
+                    <label>6</label>
+                    <input type="radio" value="6">
+                    <label>7</label>
+                    <input type="radio" value="7">
+                    <label>8</label>
+                    <input type="radio" value="8">
+                    <label>9</label>
+                    <input type="radio" value="9">
+                    <label>10</label>
+                    <input type="radio" value="10">
+                    <br><br>
+                    Que nota você dá para o design do site?<br>
+                    <label>1</label>
+                    <input type="radio" value="1">
+                    <label>2</label>
+                    <input type="radio" value="2">
+                    <label>3</label>
+                    <input type="radio" value="3">
+                    <label>4</label>
+                    <input type="radio" value="4">
+                    <label>5</label>
+                    <input type="radio" value="5">
+                    <label>6</label>
+                    <input type="radio" value="6">
+                    <label>7</label>
+                    <input type="radio" value="7">
+                    <label>8</label>
+                    <input type="radio" value="8">
+                    <label>9</label>
+                    <input type="radio" value="9">
+                    <label>10</label>
+                    <input type="radio" value="10">
+                    <br><br>
+                    Que nota você dá para o site em geral?<br>
+                    <label>1</label>
+                    <input type="radio" value="1">
+                    <label>2</label>
+                    <input type="radio" value="2">
+                    <label>3</label>
+                    <input type="radio" value="3">
+                    <label>4</label>
+                    <input type="radio" value="4">
+                    <label>5</label>
+                    <input type="radio" value="5">
+                    <label>6</label>
+                    <input type="radio" value="6">
+                    <label>7</label>
+                    <input type="radio" value="7">
+                    <label>8</label>
+                    <input type="radio" value="8">
+                    <label>9</label>
+                    <input type="radio" value="9">
+                    <label>10</label>
+                    <input type="radio" value="10">
+                    <br><br>
+                    Tem alguma sugestão ou crítica? Deixe a sua mensagem!<br><br>
+                    <!--Área para texto do usuário-->
+                    <textarea name="mensagem" cols="60" rows="10"></textarea><br>
+                    <input type="submit" class="enviar" value="Enviar" onclick="alert('Obrigado por dar sua opinião!')">
+            </fieldset>
+        </form>
+        <form action="#" method="get" class="formulario"><!--Formulário para contato-->
+            <fieldset>
+                <legend>Contate-nos</legend>
+                <label for="nome">Nome:</label><br>
+                <input type="text" name="nome" id="nome" required><br>
 
-                    <label for="email">Email:</label>
-                    <input type="email" name="email" id="email" required><br><br>
-                    <label for="mensagem">Digite sua mensagem:</label><br>
-                    <textarea name="mensagem" id="mensagem" cols="90" rows="10"></textarea>
-                    <input type="submit" class="enviar" value="Enviar" onclick="alert('Obrigado pelo comentário!')">
-                </fieldset>
-            </form>
+                <label for="email">Email:</label><br>
+                <input type="email" name="email" id="email" required><br>
+                <label for="mensagem">Digite sua mensagem:</label><br>
+                <textarea name="mensagem" id="mensagem" cols="90" rows="10"></textarea><br>
+                <input type="submit" class="enviar" value="Enviar" onclick="alert('Obrigado pelo comentário!')">
+            </fieldset>
+        </form>
             <address>
                 <p>
-                    <span>Endereço</span>
+                    <h4>Endereço</h4>
                     1234 somewhere Rd. Nashville, TN 00000
-                </p>
-                <p>
-                    <span>Telefone</span>
-                    000-000-000
-                </p>
-                <p>
-                    <span>E-mail</span>
-                    email@server.com
+                    <h4>Telefone</h4>
+                    000-000-000<br>
+                    <h4>E-mail</h4>
+                    <a href="mailto:webmaster@somedomain.com">contate o administrador do site</a>.
                 </p>
             </address>
-        </div>
     </main>
     <!--rodape-->
     <footer class="rodape">
