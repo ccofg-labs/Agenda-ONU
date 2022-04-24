@@ -14,7 +14,13 @@ Projeto sobre energia limpa e sustentável, para a disciplina de Desenvolvimento
 </p>
 
 
->Objetivo 7. Assegurar o acesso confiável, sustentável, moderno e a preço acessível à energia para todas e todos
+### Objetivo 7: Assegurar o acesso confiável, sustentável, moderno e a preço acessível à energia para todas e todos
+
+## Tecnolgias Usadas
+
+ <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="65px" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg"  width="80px" />
+ <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="65px" />
 
 * 7.1 Até 2030, assegurar o acesso universal, confiável, moderno e a preços acessíveis a serviços de 
 energia
