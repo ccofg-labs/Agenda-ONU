@@ -7,113 +7,184 @@
     <!--CSS-->
     <link rel="stylesheet" href="css/normalise.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/style_metodosLimpo.css">
     <!--fonteawesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-
     <!--favicon-->
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <title>Document</title>
+    <title>Métodos de Energia Limpa</title>
 </head>
 <body>
     <!--Cabeçalho-->
     <header>
-        <div class="header-cabecalho">
-            <div class="logo">
+        <div class="header__topo">
+            <div class="header__topo__logo">
                 <a href="index.html">
-                    <hgroup>
-                        <h2><i class="fas fa-power-off"></i> Energia acessível</h2>
-                        <h2>e limpa</h2>
-                    </hgroup>
+                    <span class="logo"><i class="fas fa-power-off"></i> Energia limpa<br>e acessível</span>
                 </a>
             </div>
-            <nav>
-                <div class="navbar-cabecalho">
+            <nav class="header__topo__navbar">
                     <ul>
                         <li>
                             <a href="index.html">início</a>
                         </li>
                         <li>
-                            <a href="https://brasil.un.org/pt-br/sdgs" target="_blank">Agenda da Onu 2030</a>
+                            <a href="https://brasil.un.org/pt-br/sdgs"
+                                target="_blank">Agenda da Onu 2030</a>
                         </li>
                         <li>
                             <a href="sobrenos.html">Sobre o site</a>
                         </li>
                         <li>
-                            <a href="avaliacao.html" target="_self">Dê a sua opinião</a>
+                            <a href="avaliacao.html" target="_self">Dê a sua
+                                opinião</a>
                         </li>
                     </ul>
-                </div>
             </nav>
         </div>
     </header>
     <!--Principal-->
-    <main>
-        <div class="container">
-            <h1>Quais métodos de energia são limpos e sustentáveis?</h1>
-            <p class="texto">
-                Nesta página você pode encontrar uma lista de métodos de energia limpa e sustentável! Leia 
-                para conhecer um pouco sobre cada uma delas!
-            </p>
-            <ul class="listaEL">
-                <li>
-                    <p class="texto">
-                        <img src="img/energia-solar.png" alt="energia solar" class="imgEL"><br>
-                        <strong>Energia solar</strong><br>
-                        Energia solar é um termo que se refere à energia 
-                        proveniente da luz e do calor do Sol. É utilizada por meio de diferentes 
-                        tecnologias em constante evolução, como o aquecimento solar, a energia solar 
-                        fotovoltaica, a energia heliotérmica, a arquitetura solar e a fotossíntese 
-                        artificial. Tecnologias solares são amplamente caracterizadas como ativas ou 
-                        passivas, dependendo da forma como capturam, convertem e distribuem a energia 
-                        solar. Entre as técnicas solares ativas estão o uso de painéis fotovoltaicos, 
-                        concentradores solares térmicos das usinas heliotérmicas e os aquecedores solares. 
-                        Entre as técnicas solares passivas estão a orientação de um edifício para o Sol, 
-                        a seleção de materiais com massa térmica favorável ou propriedades translúcidas e 
-                        projetar espaços que façam o ar circular naturalmente. 
-                    </p>
-                </li>
-                <li>
-                    <p class="texto">
-                        <img src="img/energia-eolica.png" alt="energia eolica" class="imgEL"><br>
-                        <strong>Energia eólica</strong><br>
-                        Energia eólica é a transformação da energia do vento em energia 
-                        útil, tal como na utilização de aerogeradores para produzir eletricidade, moinhos 
-                        de vento para produzir energia mecânica ou velas para impulsionar veleiros. A 
-                        energia eólica, enquanto alternativa aos combustíveis fósseis, é renovável, está 
-                        permanentemente disponível, pode ser produzida em qualquer região, é limpa, não 
-                        produz gases de efeito de estufa durante a produção e requer menos terreno. 
-                        O impacto ambiental é geralmente menos problemático do que o de outras fontes 
-                        de energia. 
-                    </p>
-                </li>
-                <li>
-                    <p class="texto">
-                        <img src="img/energia-mare.png" alt="energia maremotriz" class="imgEL"><br>
-                        <strong>Energia maremotriz</strong><br>
-                        Energia maremotriz ou energia das marés, 
-                        é o modo de geração de energia por meio do movimento das marés. Dois tipos 
-                        de energia maremotriz podem ser obtidos: energia cinética das correntes devido 
-                        às marés e energia potencial pela diferença de altura entre as marés alta e baixa. 
-                        O aproveitamento da energia das marés pode ser feito a partir de centrais 
-                        elétricas que funcionam por ação da água dos mares. É necessária uma diferença de 
-                        7 metros entre a maré alta e a maré baixa para que o aproveitamento desta 
-                        energia seja renovável. Atualmente na Europa existem pelo menos duas destas 
-                        centrais: Uma no norte de França e outra na Rússia. 
-                    </p>
-                </li>
+    <div class="main__container">
+        <main>
+                <h1>Quais métodos de energia são limpos e sustentáveis?</h1>
+                <p>
+                    Nesta página você pode encontrar uma lista de métodos de energia limpa e sustentável! Leia 
+                    para conhecer um pouco sobre cada uma delas!
+                </p>
+                <article id="energia__solar">
+                    <header>
+                        <h2>Energia solar</h2>
+                    </header>
+                    <section>
+                        <figure class="container__img">
+                            <img srcset="img/energia-solar.png 500w" alt="energia solar" sizes="30vw">
+                        </figure>
+                        <p>
+                            Energia solar é um termo que se refere à energia 
+                            proveniente da luz e do calor do Sol. É utilizada por meio de diferentes 
+                            tecnologias em constante evolução, como o aquecimento solar, a energia solar 
+                            fotovoltaica, a energia heliotérmica, a arquitetura solar e a fotossíntese 
+                            artificial. Tecnologias solares são amplamente caracterizadas como ativas ou 
+                            passivas, dependendo da forma como capturam, convertem e distribuem a energia 
+                            solar. Entre as técnicas solares ativas estão o uso de painéis fotovoltaicos, 
+                            concentradores solares térmicos das usinas heliotérmicas e os aquecedores solares. 
+                            Entre as técnicas solares passivas estão a orientação de um edifício para o Sol, 
+                            a seleção de materiais com massa térmica favorável ou propriedades translúcidas e 
+                            projetar espaços que façam o ar circular naturalmente. 
+                        </p>
+                    </section>
+                </article>
+                <article is="energia__eolica">
+                    <header>
+                        <h2>Energia eólica</h2>
+                    </header>
+                    <section>
+                        <figure class="container__img">
+                            <img srcset="img/energia-eolica.png 512w" alt="energia eolica" sizes="25vw">
+                        </figure>
+                        <p>
+                            Energia eólica é a transformação da energia do vento em energia 
+                            útil, tal como na utilização de aerogeradores para produzir eletricidade, moinhos 
+                            de vento para produzir energia mecânica ou velas para impulsionar veleiros. A 
+                            energia eólica, enquanto alternativa aos combustíveis fósseis, é renovável, está 
+                            permanentemente disponível, pode ser produzida em qualquer região, é limpa, não 
+                            produz gases de efeito de estufa durante a produção e requer menos terreno. 
+                            O impacto ambiental é geralmente menos problemático do que o de outras fontes 
+                            de energia. 
+                        </p>
+                    </section>
+                </article>
+                <article id="energia__maremotriz">
+                    <header>
+                        <h2>Energia maremotriz</h2>
+                    </header>
+                    <section>
+                        <figure class="container__img">
+                            <img srcset="img/energia-mare.png 494w" alt="energia maremotriz" sizes="25vw">
+                        </figure>
+                        <p class="texto">
+                            Energia maremotriz ou energia das marés, 
+                            é o modo de geração de energia por meio do movimento das marés. Dois tipos 
+                            de energia maremotriz podem ser obtidos: energia cinética das correntes devido 
+                            às marés e energia potencial pela diferença de altura entre as marés alta e baixa. 
+                            O aproveitamento da energia das marés pode ser feito a partir de centrais 
+                            elétricas que funcionam por ação da água dos mares. É necessária uma diferença de 
+                            7 metros entre a maré alta e a maré baixa para que o aproveitamento desta 
+                            energia seja renovável. Atualmente na Europa existem pelo menos duas destas 
+                            centrais: Uma no norte de França e outra na Rússia. 
+                        </p>
+                    </section>
+                </article>
+                <article id="energia__bioenergia">
+                    <header>
+                        <h2>Bioenergia</h2>
+                    </header>
+                    <section>
+                        <figure class="container__img">
+                            <img srcset="img/bioenergia.png 512w" alt="bioenergia" sizes="25vw">
+                        </figure>
+                        <p>
+                            A bioenergia é a designação para a energia obtida através da biomassa. 
+                            Tal energia pode ser utilizada para se gerar calor, eletricidade ou combustível para 
+                            motores de combustão em geral. Também é considerado bioenergia a energia quimicamente 
+                            armazenada na biomassa.
+                            A fontes principais de bioenergia são materiais provenientes 
+                            de matérias primas renováveis, como madeira, produtos agricolas (por ex. colza, milho, 
+                            cereais) e dejetos orgânicos (estrume, serragem, lixo orgânico, resíduos urbanos). 
+                            Entre os combustíveis bioenergéticos destaca-se o etanol, o metanol e o biodiesel 
+                            (aditivo de 7% ao diesel convencional), entre outros. 
+                            Estes representam uma fonte alternativa de combustível, perante aos 
+                            combustíveis fósseis.
+                        </p>
+                    </section>
+                </article>
+                <article id="energia__hidreletrica">
+                    <header>
+                        <h2>Energia Hidrelétrica</h2>
+                    </header>
+                    <section>
+                        <figure class="container__img">
+                            <img srcset="img/energia-hidro.png 512w" alt="hidrelétrica" sizes="25vw">
+                        </figure>
+                        <p>
+                            Energia Hidrelétrica, energia hidráulica ou energia hídrica é a energia obtida a 
+                            partir da energia potencial de uma massa de água. A forma na qual ela se manifesta 
+                            na natureza é nos fluxos de água, como rios e lagos e pode ser aproveitada por meio 
+                            de um desnível ou queda d'água.<br>
+                            Pode ser convertida na forma de energia mecânica 
+                            (rotação de um eixo) através de turbinas hidráulicas ou moinhos de água. As turbinas 
+                            por sua vez podem ser usadas como acionamento de um equipamento industrial, como um 
+                            compressor, ou de um gerador elétrico, com a finalidade de prover energia elétrica 
+                            para uma rede de energia. 
+                        </p>
+                        <p>
+                            É necessário que haja um fluxo de água para que a energia 
+                            seja gerada de forma contínua no tempo, por isto embora se possa usar qualquer 
+                            reservatório de água, como um lago, deve haver um suprimento de água ao lago, 
+                            caso contrário haverá redução do nível e com o tempo a diminuição da potência 
+                            gerada (ver equação acima).<br>
+                            As represas (barragens) são nada mais que lagos 
+                            artificiais, construídos num rio, permitindo a geração contínua. No Brasil, devido a 
+                            sua enorme quantidade de rios, a maior parte da energia elétrica disponível é 
+                            proveniente de grandes usinas hidrelétricas.
+                        </p>
+                    </section>
+                </article>
+        </main>
+        <div class="main__lateral">
+            <h4>Conteúdo da Página</h4>
+            <ul>
+                <li><a href="#energia__solar">Energia Solar</a></li>
+                <li><a href="#energia__eolica">Energia Eolica</a></li>
+                <li><a href="#energia__maremotriz">Energia Maremotriz</a></li>
+                <li><a href="#energia__bioenergia">Bioenergia</a></li>
+                <li><a href="#energia__hidreletrica">Hidreletrica</a></li>
             </ul>
-            <br>
-            <div class="botoesEL">
-                <a href="index.html">
-                    <button class="botaoEL">Voltar</button>
-                </a>
-            </div>
         </div>
-    </main>
+    </div>
     <!--rodape-->
     <footer class="rodape">
         <p>Desenvolvido por alunos da UNIFG</p>
     </footer>
+    <!--fim rodape-->
 </body>
 </html>
