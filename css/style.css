@@ -58,6 +58,31 @@ html {
     color: rgb(1, 58, 1);
 }
 
+/*lateral*/
+
+.main__lateral {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    background-color: white;
+    width: 15%;
+}
+.main__lateral ul {
+    list-style: none;
+}
+.main__lateral ul li {
+    padding: 0.5rem 0;
+}
+.main__lateral ul li a {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    text-decoration: none;
+    color: green;
+}
+
+.main__lateral a:hover {
+    color: rgb(1, 58, 1);
+}
 /*Principal do site */
 body {
     font-size: 1.6rem;
@@ -74,7 +99,9 @@ main {
     min-height: 100vw;
     padding: 0 3rem;
 }
-
+.main__container {
+    display: flex;
+}
 main a {
     text-decoration: none;
     color: rgba(0, 128, 0, 0.788);
@@ -113,7 +140,7 @@ p {
 }
 
 /*secao de videos*/
-.secao__videos {
+#secao__videos {
     margin: 10px 0;
 }
 
@@ -147,35 +174,35 @@ p {
 }
 
 /*conteudo extra*/
-.conteudo__extra h3,
-.conteudo__extra h4 {
+#conteudo__extra h3,
+#conteudo__extra h4 {
     margin: 5px 0;
 }
 
-.conteudo__extra li {
+#conteudo__extra li {
     margin: 2px 0;
     list-style: none;
 }
 
-.conteudo__extra a {
+#conteudo__extra a {
     text-decoration: none;
     color: rgba(0, 128, 0, 0.788);
 }
 
-.conteudo__extra a:hover {
+#conteudo__extra a:hover {
     color: green
 }
 
 /*secao de audio*/
-.conteudo__podcast {
+#conteudo__podcast {
     margin: 1rem 0;
 }
 
-.conteudo__podcast li {
+#conteudo__podcast li {
     list-style: none;
 }
 
-.conteudo__podcast audio {
+#conteudo__podcast audio {
     width: 100%;
 }
 
@@ -193,18 +220,8 @@ audio::-webkit-media-controls-panel {
     line-height: 5rem;
     background-color: #ffce01;
 }
+/*fomularios*/
 
-form{
-    margin: 0 auto;
-    width: 100%;
-}
-textarea {
-    margin: 0 auto;
-    max-width: 70rem;
-}
-form fieldset {
-    border-style: none;
-}
 
 @media (max-width:1024px) {
     html {
@@ -238,6 +255,10 @@ form fieldset {
 }
 
 @media (max-width:768px) {
+    /*lateral*/
+    .main__lateral ul li a{
+        font-size: 1rem;
+    }
     html {
         font-size: 50%;
     }
@@ -267,7 +288,10 @@ form fieldset {
     html {
         font-size: 35%;
     }
-
+    /*lateral */
+    .main__lateral {
+        display: none;
+    }
     main {
         overflow: auto;
         padding: 0.2rem;
@@ -344,7 +368,7 @@ form fieldset {
     }
 
     /*secao de videos*/
-    .secao__videos {
+    #secao__videos {
         margin: 0;
     }
 
