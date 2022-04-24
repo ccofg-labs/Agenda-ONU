@@ -18,9 +18,10 @@ Projeto sobre energia limpa e sustentável, para a disciplina de Desenvolvimento
 
 ## Tecnolgias Usadas
 
- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="65px" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg"  width="80px" />
- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="65px" />
+![Git](https://img.shields.io/badge/git%20-%23F05556.svg?&style=for-the-badge&logo=git&logoColor=white)
+![javascript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![html](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![css](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 * 7.1 Até 2030, assegurar o acesso universal, confiável, moderno e a preços acessíveis a serviços de 
 energia
