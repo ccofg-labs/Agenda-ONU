@@ -126,10 +126,9 @@ h3 {
 }
 
 h4 {
-    color:rgb(5, 149, 186)
+    color:rgb(5, 149, 186);
     font-size: 1.6rem;
 }
-
 p {
     color:black;
     margin: 1rem 0;
