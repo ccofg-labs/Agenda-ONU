@@ -1,11 +1,30 @@
 /*Corpo do formulário presente na página Calculadora de energia*/
 .formulario {
-    background-color: green;
-    color: white;
-    padding: 30px;
-    border-radius: 15px;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 3rem;
+    border-radius: 1.5rem;
+    margin: 2rem 0;
+    background-color: rgba(0, 128, 0, 0.747);
+    color: black;
 }
-
+.formulario a {
+    color: white;
+}
+.formulario a:hover {
+    color: rgb(2, 99, 2);
+}
+.claro {
+}
+fieldset,
+legend {
+    border: none;
+}
+textarea ,
+input[type="text"],
+input[type="email"]{
+    width: 100%;
+}
 /*Botão select do formulário presente na página Calculadora de energia*/
 .select {
     background-color: white;
@@ -34,12 +53,12 @@
 .enviar {
     display: flex;
     justify-content: center;
-    width: 100px;
-    height: 40px;
+    width: 10rem;
+    height: 4rem;
     border-radius: 20%;
     background-color: white;
     color: black;
-    margin: 10px auto;
+    margin: 1rem auto;
 }
 
 /*Animação do botão dos formulários da página de Calculadora de energia*/
