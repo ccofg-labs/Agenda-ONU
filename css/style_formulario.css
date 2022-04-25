@@ -8,16 +8,19 @@
     background-color: rgba(0, 128, 0, 0.747);
     color: black;
 }
+.formulario h4,
+.formulario h3 {
+    color: black;
+}
 .formulario a {
     color: white;
 }
 .formulario a:hover {
     color: rgb(2, 99, 2);
 }
-.claro {
-}
 fieldset,
 legend {
+    color: black;
     border: none;
 }
 textarea ,
@@ -63,6 +66,26 @@ input[type="email"]{
 
 /*Animação do botão dos formulários da página de Calculadora de energia*/
 .enviar:hover {
+    cursor: pointer;
+    background-color: greenyellow;
+}
+.botoesAC {
+    text-align: left;
+    margin-left: 1.5rem;
+}
+/*Estilo do botão presente nas páginas de Aparelhos*/
+.botaoAC {
+    background-color: green;
+    color: white;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 20px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+/*Animação quando o mouse é passado sobre o botão*/
+.botaoAC:hover {
     cursor: pointer;
     background-color: greenyellow;
 }
