@@ -1,0 +1,27 @@
+.header {
+    background: #f7e919 url(../../img/banner.png);
+    height: 10vh;
+    width: 100%;
+    display: grid;
+    position: fixed;
+    z-index: 2;
+    top:0;
+    grid-template-columns: 200px 500px auto 100px;
+    grid-template-areas: "logo navbar . .";
+    align-items: center;
+    &__logo{
+        grid-area: logo;
+        text-align: center;
+    }
+    &__navbar{
+        grid-area: navbar;
+        ul {
+            display: flex;
+            justify-content: space-between;
+            flex-flow: row wrap;
+            li {
+                list-style: none;
+            }
+        }
+    }
+}

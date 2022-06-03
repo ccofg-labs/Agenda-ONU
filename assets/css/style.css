@@ -1,0 +1,93 @@
+.container-home {
+  margin-top: 10vh;
+  position: relative;
+  display: grid;
+  grid-template-columns: auto 20%;
+  grid-template-areas: "principal  lateral";
+}
+.container-home__principal {
+  padding: 10px 64px;
+  grid-area: principal;
+  border: 1px solid red;
+}
+.container-home__principal section figure {
+  margin: 0 auto;
+  max-width: 70%;
+}
+.container-home__principal section figure img {
+  width: 100%;
+}
+.container-home__principal section ol {
+  list-style: none;
+}
+.container-home__principal section ol li {
+  text-align: justify;
+}
+.container-home__principal section a {
+  color: black;
+  text-decoration: none;
+}
+.container-home__principal section a:hover {
+  color: red;
+}
+.container-home__lateral {
+  grid-area: lateral;
+  padding-left: 10px;
+}
+.container-home__lateral header {
+  padding: 10px 0;
+}
+.container-home__lateral ul {
+  list-style: none;
+}
+.container-home__lateral ul li {
+  padding: 10px 0;
+  font-size: 12px;
+}
+.container-home__lateral ul li a {
+  text-decoration: none;
+}
+
+.rodape {
+  line-height: 6vh;
+  text-align: center;
+  vertical-align: center;
+  background-color: #F7E919;
+}
+
+.header {
+  background: #f7e919 url(../../img/banner.png);
+  height: 10vh;
+  width: 100%;
+  display: grid;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  grid-template-columns: 200px 500px auto 100px;
+  grid-template-areas: "logo navbar . .";
+  align-items: center;
+}
+.header__logo {
+  grid-area: logo;
+  text-align: center;
+}
+.header__navbar {
+  grid-area: navbar;
+}
+.header__navbar ul {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+}
+.header__navbar ul li {
+  list-style: none;
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
