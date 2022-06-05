@@ -1,0 +1,12 @@
+.container-calculadora{
+    margin-top: 10vh;
+    position: relative;
+    main {
+        max-width: 1200px;
+        margin: 0 auto;
+        border: 1px solid red;
+        #calculadora{
+            background-color: #ccc;
+        }
+    }
+}

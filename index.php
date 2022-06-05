@@ -10,6 +10,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <!--css-->
     <link rel="stylesheet" href="assets/css/style.css">
+    <!--favicon-->
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
     <title>Energia limpa - Home</title>
     <script>
         $(document).ready(function(){
@@ -18,11 +20,14 @@
     </script>
 </head>
 <body>
+    <div id="modal-videos">
+        <?php include("partials/videos.php"); ?>
+    </div>
     <div id="header">
         <?php include("partials/header.php");?>
     </div>
-    <div class="container-home">
-            <div class="container-home__principal">
+    <div class="container">
+            <div class="container__principal">
                <main>
                     <article id="secao1">
                         <header>
@@ -31,7 +36,7 @@
                         </header>
                         <section>
                             <figure>
-                                <img src="assets/img/energia_limpa_index.gif" alt="energia limpa">
+                                <img srcset="assets/img/energia_limpa_index.gif" alt="energia limpa" sizes="30vw">
                             </figure>
                         </section>
                     </article>
@@ -103,18 +108,53 @@
                         </section>
                     </article>
                     <article id="secao4">
-                        <header>
-                            <hgroup>
-                                <h2>Veja todos os video sobre energia limpa</h2>
-                            </hgroup>
-                        </header>
+                        <header><h2>Veja todos os video sobre energia limpa</h2></header>
                         <section>
-                            <h3>Objetivos de Desenvolvimento Sustentável IBGE Explica:</h3>
-                            <audio src="assets/audio/audio/ODS-7-Energias-renováveis-IBGE-Explica"></audio>
-                            <h3>ODS 7 Energias renováveis IBGE Explica:</h3>
+                            <div class="videos">
+                                <div class="videos__video">
+                                    <figure>
+                                        <img src="assets/img/video1.jpg" alt="">
+                                    </figure>
+                                </div>
+                                <div class="videos__descricao">
+                                    <h3>Como energia solar é convertida em eletrecidade?</h3>
+                                    <p>Para entender como transformar energia solar em energia elétrica, é preciso entender bem o que é o efeito fotovoltaico.</p>
+                                </div>
+                                <div class="videos__video">
+                                    <figure>
+                                        <img src="assets/img/energia-como-funciona.jpg" alt="">
+                                    </figure>
+                                </div>
+                                <div class="videos__descricao">
+                                    <h3>Energia solar - como funciona</h3>
+                                    <p>Num curto espaço de tempo, a energia solar e os painéis solares deixaram de ser um conceito futurista, transformando-se numa realidade e integrando a solução para um futuro mais sustentável.</p>
+                                </div>
+                                <div class="videos__video">
+                                    <figure>
+                                        <img src="assets/img/energia-transforma.jpg" alt="">
+                                    </figure>
+                                </div>
+                                <div class="videos__descricao">
+                                    <h3>Energia limpas e o futuro que queremos</h3>
+                                    <p>A energia limpa contribui para a utilização de fontes renováveis. Além dos recursos utilizados estarem disponíveis para gerações futuras, a energia limpa não causa impactos como o aumento do dióxido de carbono (CO2) na atmosfera, não emite gases de efeito estufa e tampouco agrava o aquecimento global.</p>
+                                </div>
+                            </div>
                         </section>
                     </article>
                     <article id="secao5">
+                        <header>
+                            <hgroup>
+                                <h2>Veja também</h2>
+                            </hgroup>
+                        </header>
+                        <section>
+                            <h4>Objetivos de Desenvolvimento Sustentável IBGE Explica:</h4>
+                            <audio src="/assets/audio/energias.mp3"></audio>
+                            <h4>ODS 7 Energias renováveis IBGE Explica:</h4>
+                            <audio src="/assets/audio/objetivos.mp3"></audio>
+                        </section>
+                    </article>
+                    <article id="secao6">
                         <header>
                             <hgroup>
                                 <h3>Mais informações:</h3>
@@ -124,25 +164,25 @@
                         <section>
                             <ol>
                                 <li>
-                                     <a href="metodosLimpo.html">
+                                     <a href="metodos-limpos.php">
                                     Quais são os métodos de energia
                                     limpa e sustentável?
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="metodosNocivo.html">
+                                    <a href="metodos-nosivos.php">
                                     Quais são os métodos de energia
                                     nocivos ao meio ambiente?
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="paisesEL.html">
+                                    <a href="paises-el.php">
                                     Quais países usam energia
                                     sustentável e como isso os afeta?
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="calculadoraEnergia.html" target="_blank">
+                                    <a href="calculadora-energia.php">
                                     As consequências que o uso de sua
                                     energia trazem.
                                     </a>
@@ -152,11 +192,11 @@
                     </article>
                </main>
             </div>
-            <div class="container-home__lateral">
+            <div class="container__lateral">
                 <aside>
                     <article>
                         <header>
-                            <h4>Conteúdo da Página </h4>
+                            <h4>Conteúdo da Página</h4>
                         </header>
                         <nav>
                         <ul>
@@ -171,10 +211,8 @@
                 </aside>
             </div>
     </div>
-    <footer>
-        <div id="rodape">
-            <?php include("partials/footer.php"); ?>
-        </div>
-    </footer>
+    <div id="rodape">
+        <?php include("partials/footer.php"); ?>
+    </div>
     </body>
 </html>

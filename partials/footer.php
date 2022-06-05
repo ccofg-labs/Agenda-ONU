@@ -1,3 +1,5 @@
-<div class="rodape">
-    <span>Desenvolvido por alunos da UNIFG</span>
-</div>
+<footer>
+    <div class="rodape">
+        <span>Desenvolvido por alunos da UNIFG</span>
+    </div>
+</footer>

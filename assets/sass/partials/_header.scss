@@ -1,5 +1,6 @@
 .header {
-    background: #f7e919 url(../../img/banner.png);
+    background: #f7e919 url("/assets/img/banner.png");
+    background-size: contain;
     height: 10vh;
     width: 100%;
     display: grid;
