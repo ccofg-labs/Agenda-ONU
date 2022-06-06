@@ -25,7 +25,7 @@
                     </header>
                     <section>
                         <figure>
-                            <img src="assets/img/energia-solar.png" alt="energia solar">
+                            <img src="assets/img/metodos-limpos/energia-solar.png" alt="energia solar">
                         </figure>
                         <p>
                             Energia solar é um termo que se refere à energia 
@@ -48,7 +48,7 @@
                     </header>
                     <section>
                         <figure class="container__img">
-                            <img src="assets/img/energia-eolica.png" alt="energia eolica">
+                            <img src="assets/img/metodos-limpos/energia-eolica.png" alt="energia eolica">
                         </figure>
                         <p>
                             Energia eólica é a transformação da energia do vento em energia 
@@ -68,7 +68,7 @@
                     </header>
                     <section>
                         <figure>
-                            <img src="assets/img/energia-mare.png" alt="energia maremotriz">
+                            <img src="assets/img/metodos-limpos/energia-mare.png" alt="energia maremotriz">
                         </figure>
                         <p>
                             Energia maremotriz ou energia das marés, 
@@ -89,7 +89,7 @@
                     </header>
                     <section>
                         <figure>
-                            <img src="assets/img/bioenergia.png" alt="bioenergia">
+                            <img src="assets/img/metodos-limpos/bioenergia.png" alt="bioenergia">
                         </figure>
                         <p>
                             A bioenergia é a designação para a energia obtida através da biomassa. 
@@ -112,7 +112,7 @@
                     </header>
                     <section>
                         <figure>
-                            <img src="assets/img/energia-hidro.png" alt="hidrelétrica">
+                            <img src="assets/img/metodos-limpos/energia-hidro.png" alt="hidrelétrica">
                         </figure>
                         <p>
                             Energia Hidrelétrica, energia hidráulica ou energia hídrica é a energia obtida a 

@@ -36,7 +36,7 @@
                     </header>
                     <section>
                     <figure>
-                        <img src="assets/img/energia-nuclear.png" alt="Energia Nuclear">
+                        <img src="assets/img/metodos-nosivos/energia-nuclear.png" alt="Energia Nuclear">
                     </figure>
                     <p>
                         Energia nuclear ou energia atômica é a energia liberada em uma reação nuclear,
@@ -63,7 +63,7 @@
                     </header>
                     <section>
                         <figure class="container__img">
-                            <img src="assets/img/energia-fossil.png" alt="Energia Nuclear">
+                            <img src="assets/img/metodos-nosivos/energia-fossil.png" alt="Energia Nuclear">
                         </figure>
                         <p>
                             Combustíveis fósseis são combustíveis formados por meio de processos naturais,
@@ -87,7 +87,7 @@
                     </header>
                     <section>
                         <figure>
-                            <img src="assets/img/energia-gas.png" alt="Energia gás natural">
+                            <img src="assets/img/metodos-nosivos/energia-gas.png" alt="Energia gás natural">
                         </figure>
                         <p>
                             O gás natural é uma mistura de derivados de combustíveis fósseis, formado quando

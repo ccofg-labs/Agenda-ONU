@@ -30,7 +30,7 @@
                 </header>
                 <section>
                     <figure class="container__img">
-                        <img srcset="assets/img/espanha.png 3500w" alt="espanha" sizes="30vw">
+                        <img srcset="assets/img/paises-el/espanha.png 3500w" alt="espanha" sizes="30vw">
                     </figure>
                     <p>
                         Historicamente, a Espanha tem sido um dos países líderes na Europa em termos de fontes de energia
@@ -57,7 +57,7 @@
                 </header>
                 <section>
                     <figure class="container__img">
-                        <img srcset="assets/img/alemanha.png 2000w" alt="alemanha" sizes="30vw">
+                        <img srcset="assets/img/paises-el/alemanha.png 2000w" alt="alemanha" sizes="30vw">
                     </figure>
                     <p>
                         A Alemanha, considerada uma das maiores potências econômicas e industriais do mundo, em 2020 ela
@@ -84,7 +84,7 @@
                 </header>
                 <section>
                     <figure class="container__img">
-                        <img srcset="assets/img/china.png 2000w" alt="China" sizes="30vw">
+                        <img srcset="assets/img/paises-el/china.png 2000w" alt="China" sizes="30vw">
                     </figure>
                     <p>
                         O país é o maior investidor mundial de energia renovável, a expectativa é se tornar a próxima
@@ -115,7 +115,7 @@
                 </header>
                 <section>
                     <figure class="container__img">
-                        <img srcset="assets/img/india.png 280w" alt="india" sizes="30vw">
+                        <img srcset="assets/img/paises-el/india.png 280w" alt="india" sizes="30vw">
                     </figure>
                     <p>
                         A Índia é um dos países emergentes que mais apostam em projetos sustentáveis para geração de
@@ -141,7 +141,7 @@
                 </header>
                 <section>
                     <figure class="container__img">
-                        <img srcset="assets/img/brasil.png 1500w" alt="brasil" sizes="30vw">
+                        <img srcset="assets/img/paises-el/brasil.png 1500w" alt="brasil" sizes="30vw">
                     </figure>
                     <p>
                         A matriz energética brasileira é uma das mais renováveis entre todos os países com as grandes
@@ -163,7 +163,7 @@
                 </header>
                 <section>
                     <figure class="container__img">
-                        <img alt="bandeira do EUA" srcset="assets/img/eua.png 1500w" sizes="30vw">
+                        <img alt="bandeira do EUA" srcset="assets/img/paises-el/eua.png 1500w" sizes="30vw">
                     </figure>
                     <p>
                         Os Estados Unidos atingiram um marco histórico no setor de energia. Após 134 anos de reinado do
@@ -189,7 +189,7 @@
                 </header>
                 <section>
                     <figure class="container__img">
-                        <img alt="" sizes="30vw" srcset="assets/img/bandeira-quemia.png 275w">
+                        <img alt="" sizes="30vw" srcset="assets/img/paises-el/bandeira-quemia.png 275w">
                     </figure>
                     <p>
                         O Quênia é o líder global em números de sistemas de energia solar instalados por habitante, e
@@ -209,7 +209,7 @@
                 </header>
                 <section>
                     <figure class="container__img">
-                        <img srcset="assets/img/africa-do-sul.png 2000w" alt="Africa do Sul" sizes="30vw">
+                        <img srcset="assets/img/paises-el/africa-do-sul.png 2000w" alt="Africa do Sul" sizes="30vw">
                     </figure>
                     <p>
                         A transição para energias renováveis na África é crucial para permitir limitar o aquecimento global

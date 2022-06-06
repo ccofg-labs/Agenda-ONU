@@ -112,31 +112,33 @@
                         <section>
                             <div class="videos">
                                 <div class="videos__video">
-                                    <figure>
-                                        <img src="assets/img/video1.jpg" alt="">
-                                    </figure>
-                                </div>
-                                <div class="videos__descricao">
-                                    <h3>Como energia solar é convertida em eletrecidade?</h3>
-                                    <p>Para entender como transformar energia solar em energia elétrica, é preciso entender bem o que é o efeito fotovoltaico.</p>
-                                </div>
-                                <div class="videos__video">
-                                    <figure>
-                                        <img src="assets/img/energia-como-funciona.jpg" alt="">
-                                    </figure>
-                                </div>
-                                <div class="videos__descricao">
-                                    <h3>Energia solar - como funciona</h3>
-                                    <p>Num curto espaço de tempo, a energia solar e os painéis solares deixaram de ser um conceito futurista, transformando-se numa realidade e integrando a solução para um futuro mais sustentável.</p>
+                                        <div class="videos__video__img">
+                                            <img src="assets/img/" alt="">
+                                        </div>
+                                        <div class="videos__video__modal">
+                                            <div class="videos__video__modal__video">
+                                                <video src="assets/video/como-funciona.mp4"></video>
+                                            </div>
+                                        </div>
+                                        <div class="videos__video__descricao"></div>
                                 </div>
                                 <div class="videos__video">
-                                    <figure>
-                                        <img src="assets/img/energia-transforma.jpg" alt="">
-                                    </figure>
+                                        <div class="videos__video__img"></div>
+                                        <div class="video2__video__modal">
+                                            <div class="videos__video__modal__video1">
+                                                <video src="assets/videos/energia-convertida.mp4"></video>
+                                            </div>
+                                        </div>
+                                        <div class="videos__video__descricao"></div>
                                 </div>
-                                <div class="videos__descricao">
-                                    <h3>Energia limpas e o futuro que queremos</h3>
-                                    <p>A energia limpa contribui para a utilização de fontes renováveis. Além dos recursos utilizados estarem disponíveis para gerações futuras, a energia limpa não causa impactos como o aumento do dióxido de carbono (CO2) na atmosfera, não emite gases de efeito estufa e tampouco agrava o aquecimento global.</p>
+                                <div class="videos__video">
+                                        <div class="videos__video__img"></div>
+                                        <div class="videos__video__modal">
+                                        <div class="videos__video__moda__video3">
+                                            <video src="assets/video/energias-limpas.mp4"></video>
+                                        </div>
+                                        </div>
+                                        <div class="videos__video__descricao"></div>
                                 </div>
                             </div>
                         </section>
