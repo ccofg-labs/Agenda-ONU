@@ -5,6 +5,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+    </script>
+        <script>
+            $(document).ready(function(){
+                /* Primeiro Vídeo */
+                $(".thumb1").click(function(){
+                    $(".modalContainer1").addClass("mostrar");
+                });
+                $(".modalContainer1").click(function(){
+                    $(".modalContainer1").removeClass("mostrar");
+                });
+    
+                /* Segundo Vídeo */
+                $(".thumb2").click(function(){
+                    $(".modalContainer2").addClass("mostrar");
+                });
+                $(".modalContainer2").click(function(){
+                    $(".modalContainer2").removeClass("mostrar");
+                });
+        
+                /* Terceiro Vídeo */
+                $(".thumb3").click(function(){
+                    $(".modalContainer3").addClass("mostrar");
+                });
+                $(".modalContainer3").click(function(){
+                    $(".modalContainer3").removeClass("mostrar");
+                });
+            });
+        </script>
     <!--CSS-->
     <link rel="stylesheet" href="css/normalise.css">
     <link rel="stylesheet" href="css/style.css">
@@ -159,25 +189,61 @@
                 <section>
                     <div class="conteudo__videos">
                         <div class="conteudo__videos__video">
-                            <video src="video/Como Energia Solar é Convertida em Eletricidade_ _ Ep. 29.mp4"></video>
+                            <img src="img/thumb_01.png" alt="thumb1" class="thumb1">
+                            <div class="modalContainer1">
+                                <span id="btn1"><i class="fa-solid fa-xmark"></i></span>
+                                <video 
+                                class="modalVideo1"
+                                src="video/Como Energia Solar é Convertida em Eletricidade_ _ Ep. 29.mp4" 
+                                controls></video>
+                            </div>
                         </div>
                         <div class="conteudo__videos__descricao">
                             <h3>Como energia solar é convertida em eletrecidade?</h3>
-                            <p>Para entender como transformar energia solar em energia elétrica, é preciso entender bem o que é o efeito fotovoltaico.</p>
+                            <p>
+                                Para entender como transformar energia solar em energia elétrica, é preciso entender bem o que é o efeito fotovoltaico. 
+                                Vídeo publicado pelo canal <a href="https://www.youtube.com/c/MinutoDaTerra" class="links" target="_blank">
+                                    Minuto da Terra
+                                </a>
+                            </p>
                         </div>
                         <div class="conteudo__videos__video">
-                            <video src="video/ENERGIA SOLAR - Como Funciona_.mp4" poster="img/energia-como-funciona.jpg"></video>
+                            <img src="img/thumb_02.png" alt="thumb2" class="thumb2">
+                            <div class="modalContainer2">
+                                <span id="btn2"><i class="fa-solid fa-xmark"></i></span>
+                                <video 
+                                class="modalVideo2"
+                                src="video/ENERGIA SOLAR - Como Funciona_.mp4" 
+                                controls></video>
+                            </div>
                         </div>
                         <div class="conteudo__videos__descricao">
                             <h3>Energia solar - como funciona</h3>
-                            <p>Num curto espaço de tempo, a energia solar e os painéis solares deixaram de ser um conceito futurista, transformando-se numa realidade e integrando a solução para um futuro mais sustentável.</p>
+                            <p>
+                                Num curto espaço de tempo, a energia solar e os painéis solares deixaram de ser um conceito futurista, transformando-se numa realidade e integrando a solução para um futuro mais sustentável. 
+                                Vídeo publicado pelo canal <a href="https://www.youtube.com/c/BlueSolEnergiaSolar" class="links" target="_blank">
+                                    Blue Sol
+                                </a>
+                            </p>
                         </div>
                         <div class="conteudo__videos__video">
-                            <video src="video/Energias limpas e o futuro que queremos.mp4" poster="img/energia-limpa.jpg"></video>
+                            <img src="img/thumb_03.png" alt="thumb3" class="thumb3">
+                            <div class="modalContainer3">
+                                <span id="btn3"><i class="fa-solid fa-xmark"></i></span>
+                                <video 
+                                class="modalVideo3"
+                                src="video/Energias limpas e o futuro que queremos.mp4" 
+                                controls></video>
+                            </div>
                         </div>
                         <div class="conteudo__videos__descricao">
                             <h3>Energia limpas e o futuro que queremos</h3>
-                            <p>A energia limpa contribui para a utilização de fontes renováveis. Além dos recursos utilizados estarem disponíveis para gerações futuras, a energia limpa não causa impactos como o aumento do dióxido de carbono (CO2) na atmosfera, não emite gases de efeito estufa e tampouco agrava o aquecimento global.</p>
+                            <p>
+                                A energia limpa contribui para a utilização de fontes renováveis. Além dos recursos utilizados estarem disponíveis para gerações futuras, a energia limpa não causa impactos como o aumento do dióxido de carbono (CO2) na atmosfera, não emite gases de efeito estufa e tampouco agrava o aquecimento global. 
+                                Vídeo publicado pelo canal <a href="https://www.youtube.com/c/Desenrolado" class="links" target="_blank">
+                                    Desenrolou
+                                </a>
+                            </p>
                         </div>
                     </div>
             </article>
