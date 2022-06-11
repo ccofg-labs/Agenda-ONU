@@ -93,7 +93,7 @@ main {
     margin: 0 auto;
     width: 70%;
     box-sizing: border-box;
-    min-height: 100vw;
+    min-height: 50vw;
     padding: 0 3rem;
 }
 .main__container {
