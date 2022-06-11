@@ -1,0 +1,2 @@
+//Validação Simples
+$("#form").validate();
