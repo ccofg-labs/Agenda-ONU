@@ -15,10 +15,9 @@
       </div>
     </div>
   </div>
-  <div class="footer-copyright">
+  <div class="footer-copyright center-align">
     <div class="container black-text">
-      © 2014 Copyright Text
-      <a class="black-text text-lighten-4 right" href="#!">More Links</a>
+      © 2022 Todos os direitos reservados
     </div>
   </div>
 </footer>

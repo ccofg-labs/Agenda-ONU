@@ -48,42 +48,42 @@
                 <form class="col s12">
                     <div>
                         <h6>Que nota você dá para a interface do site?</h6>
-                        <label><input name="group1" type="radio" checked /><span>1</span></label>
-                        <label><input name="group1" type="radio" checked /><span>2</span></label>
-                        <label><input name="group1" type="radio" checked /><span>3</span></label>
-                        <label><input name="group1" type="radio" checked /><span>4</span></label>
-                        <label><input name="group1" type="radio" checked /><span>5</span></label>
-                        <label><input name="group1" type="radio" checked /><span>6</span></label>
-                        <label><input name="group1" type="radio" checked /><span>7</span></label>
-                        <label><input name="group1" type="radio" checked /><span>8</span></label>
-                        <label><input name="group1" type="radio" checked /><span>9</span></label>
-                        <label><input name="group1" type="radio" checked /><span>10</span></label>
+                        <label><input name="nota-interface" type="radio" checked /><span>1</span></label>
+                        <label><input name="nota-interface" type="radio" checked /><span>2</span></label>
+                        <label><input name="nota-interface" type="radio" checked /><span>3</span></label>
+                        <label><input name="nota-interface" type="radio" checked /><span>4</span></label>
+                        <label><input name="nota-interface" type="radio" checked /><span>5</span></label>
+                        <label><input name="nota-interface" type="radio" checked /><span>6</span></label>
+                        <label><input name="nota-interface" type="radio" checked /><span>7</span></label>
+                        <label><input name="nota-interface" type="radio" checked /><span>8</span></label>
+                        <label><input name="nota-interface" type="radio" checked /><span>9</span></label>
+                        <label><input name="nota-interface" type="radio" checked /><span>10</span></label>
                     </div>
                     <div>
                         <h6>Que nota você dá para o design do site?</h6>
-                        <label><input name="group1" type="radio" checked /><span>1</span></label>
-                        <label><input name="group1" type="radio" checked /><span>2</span></label>
-                        <label><input name="group1" type="radio" checked /><span>3</span></label>
-                        <label><input name="group1" type="radio" checked /><span>4</span></label>
-                        <label><input name="group1" type="radio" checked /><span>5</span></label>
-                        <label><input name="group1" type="radio" checked /><span>6</span></label>
-                        <label><input name="group1" type="radio" checked /><span>7</span></label>
-                        <label><input name="group1" type="radio" checked /><span>8</span></label>
-                        <label><input name="group1" type="radio" checked /><span>9</span></label>
-                        <label><input name="group1" type="radio" checked /><span>10</span></label>
+                        <label><input name="nota-design" type="radio" checked /><span>1</span></label>
+                        <label><input name="nota-design" type="radio" checked /><span>2</span></label>
+                        <label><input name="nota-design" type="radio" checked /><span>3</span></label>
+                        <label><input name="nota-design" type="radio" checked /><span>4</span></label>
+                        <label><input name="nota-design" type="radio" checked /><span>5</span></label>
+                        <label><input name="nota-design" type="radio" checked /><span>6</span></label>
+                        <label><input name="nota-design" type="radio" checked /><span>7</span></label>
+                        <label><input name="nota-design" type="radio" checked /><span>8</span></label>
+                        <label><input name="nota-design" type="radio" checked /><span>9</span></label>
+                        <label><input name="nota-design" type="radio" checked /><span>10</span></label>
                     </div>
                     <div>
                         <h6>Que nota você dá para o site em geral?</h6>
-                        <label><input name="group1" type="radio" checked /><span>1</span></label>
-                        <label><input name="group1" type="radio" checked /><span>2</span></label>
-                        <label><input name="group1" type="radio" checked /><span>3</span></label>
-                        <label><input name="group1" type="radio" checked /><span>4</span></label>
-                        <label><input name="group1" type="radio" checked /><span>5</span></label>
-                        <label><input name="group1" type="radio" checked /><span>6</span></label>
-                        <label><input name="group1" type="radio" checked /><span>7</span></label>
-                        <label><input name="group1" type="radio" checked /><span>8</span></label>
-                        <label><input name="group1" type="radio" checked /><span>9</span></label>
-                        <label><input name="group1" type="radio" checked /><span>10</span></label>
+                        <label><input name="nota-geral" type="radio" checked /><span>1</span></label>
+                        <label><input name="nota-geral" type="radio" checked /><span>2</span></label>
+                        <label><input name="nota-geral" type="radio" checked /><span>3</span></label>
+                        <label><input name="nota-geral" type="radio" checked /><span>4</span></label>
+                        <label><input name="nota-geral" type="radio" checked /><span>5</span></label>
+                        <label><input name="nota-geral" type="radio" checked /><span>6</span></label>
+                        <label><input name="nota-geral" type="radio" checked /><span>7</span></label>
+                        <label><input name="nota-geral" type="radio" checked /><span>8</span></label>
+                        <label><input name="nota-geral" type="radio" checked /><span>9</span></label>
+                        <label><input name="nota-geral" type="radio" checked /><span>10</span></label>
                     </div>
                     <div class="row">
                         <div class="input-field col s12">
