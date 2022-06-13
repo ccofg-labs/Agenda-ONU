@@ -32,4 +32,4 @@ Acesse esse [link](https://drive.google.com/file/d/1V6v7-3h5y-v5skhAWZ8hd43w46z-
  
 
 ## 📷 Print
-![index](img\readme/index.png)
+![index](img/index.png)
