@@ -1,4 +1,4 @@
-# CCO5  Desenvolvimento de Software para Web - Projeto N1
+# CCO5  Desenvolvimento de Software para Web - Projeto N1 & N2
 ![License](https://img.shields.io/badge/Code%20License-MIT-green.svg)
 ![License](https://img.shields.io/badge/Academy-N1-red.svg)
 ![License](https://img.shields.io/badge/UNIFG-CCO5-blue.svg)
